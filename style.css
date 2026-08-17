@@ -50,12 +50,14 @@
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  background-color: #f8f8f8;
 }
 
 .igroup {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  padding-bottom: 4px;
 }
 
 .passbox {
@@ -68,14 +70,14 @@
   align-self: flex-end;
   border: none;
   background-color: transparent;
-  color: #6c63ff;
+  color: darkblue;
   cursor: pointer;
 }
 #loginBtn {
   padding: 12px;
   border: none;
   border-radius: 6px;
-  background-color: #6c63ff;
+  background-color: rgb(26, 174, 255);
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -84,14 +86,31 @@
 
 .registerbox {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 6px;
+  padding-top: 8px;
+  justify-content: center;
 }
 
 #register {
   border: none;
   background-color: transparent;
-  color: #6c63ff;
+  color: rgb(26, 174, 255);
   cursor: pointer;
+}
+
+#login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#greeting h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#greeting p {
+  color: grey;
 }
