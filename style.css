@@ -42,6 +42,12 @@
 #login form {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   width: 70%;
+}
+
+#login input {
+  padding: 12px;
+  border: 1 px solid #ccc;
+  border-radius: 6px;
 }
