@@ -19,28 +19,37 @@
 
         <section id="login">
           <form action="">
-            <label for="email">Email</label>
-            <input
-              id="email"
-              type="email"
-              minlength="5"
-              placeholder="Email@site.com"
-              maxlength="12"
-              required
-            />
-            <label for="password">Password</label>
-            <input
-              id="password"
-              type="password"
-              minlength="5"
-              placeholder="password"
-              maxlength="12"
-              required
-            />
-            <button id="forget">Forget Password</button>
-            <button>Login</button>
-            <p>Not a member?</p>
-            <button id="register">Register Now</button>
+            <div class="igroup">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                minlength="5"
+                placeholder="Email@site.com"
+                maxlength="12"
+                required
+              />
+            </div>
+            <div class="passbox">
+              <div class="igroup">
+                <label for="password">Password</label>
+                <input
+                  id="password"
+                  type="password"
+                  minlength="5"
+                  placeholder="password"
+                  maxlength="12"
+                  required
+                />
+              </div>
+
+              <button id="forget">Forget Password</button>
+            </div>
+            <button id="loginBtn">Login</button>
+            <div class="registerbox">
+              <p>Not a member?</p>
+              <button id="register">Register Now</button>
+            </div>
           </form>
         </section>
       </div>
